@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Airflow Execution Logs
+airflow/logs/
+*.log
+
+# Data Files
+data/
+*.csv
+*.json
+
+# OS & IDE Settings (Optional but Recommended)
+.DS_Store
+.vscode/
+.idea/
